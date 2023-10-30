@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
-
+console.log("my test")
 export default defineConfig({
     plugins: [
         laravel({
